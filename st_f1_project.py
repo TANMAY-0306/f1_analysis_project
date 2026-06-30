@@ -33,7 +33,7 @@ st.markdown("""
 """, unsafe_allow_html=True)
 
 try:
-    banner_img = Image.open("C:/Users/TANMAY/OneDrive/Desktop/f1_headshot/banner.png")
+    banner_img = Image.open("banner.png")
     st.image(banner_img, use_container_width=True)
 except FileNotFoundError:
     st.warning("Banner image not found.")
